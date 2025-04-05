@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  justify-content: space-between;
+}
+.contact ul, .contact ul a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white
+}
+
+@media (max-width: 756px) {
+  .contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+  }
+}

@@ -1,0 +1,11 @@
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+}

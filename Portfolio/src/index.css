@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:monospace;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+body {
+  color: white;
+  background: linear-gradient(135deg, rgb(24, 2, 59), rgb(0, 0, 0),rgb(63, 5, 60));
+  height: 300%;
+  background-repeat: no-repeat;
+}
+
+
