@@ -4,20 +4,52 @@
   margin: 20px;
   align-items: center;
   height: 100vh;
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
-.info h3 {
+.info h2 {
   font-size: 40px;
-  line-height: 60px;
+  line-height: 45px;
 }
 
-.info h3 span {
-  color: rgb(221, 0, 221)
+.info p {
+  font-size: 17px;
+  font-weight: bold;
 }
 
+.info h2 span {
+  color: rgb(221, 0, 221);
+}
+
+
+.resume {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.resume a {
+  margin-right: 10px;
+  
+}
+.resume button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid purple;
+}
+
+.resume button:hover {
+  cursor: pointer;
+  background-color: rgb(49, 17, 78);
+  transition: 0.2s;
+}
 .hero img {
-  width: 400px;
+  width: 600px;
   border-radius: 500px;
 }
 
@@ -27,8 +59,8 @@
     flex-direction: column;
     gap: 100px;
     text-align: center;
+    margin-top: 10px
   }
+
 }
 
-
- 

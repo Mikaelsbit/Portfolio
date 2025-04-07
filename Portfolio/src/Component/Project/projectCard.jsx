@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./projectCard.module.css";
-export default function projectCard({title, description,link,img}) {
+export default function projectCard({title, description,link,img,source}) {
   console.log(title)
   return (
-    <section id="Projects" className={classes.projects}>
+    <section className={classes.projects}>
       <div className={classes.project__container}>
         <div className={classes.project__wrapper}>
           <div className={classes.image}>
@@ -27,8 +27,8 @@ export default function projectCard({title, description,link,img}) {
             </ul>
           </div>
           <div className={classes.btn_demosrc}>
-            <button><a href={link}>Demo</a></button>
-            <button>source</button>
+            <button><a href={link} target="_blank">Demo</a></button>
+            <button><a href={source} target="_blank">Source</a></button>
           </div>
         </div>
         

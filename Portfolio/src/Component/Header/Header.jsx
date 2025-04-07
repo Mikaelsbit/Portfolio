@@ -12,7 +12,7 @@ export default function Header() {
         <div className={classes.leftSide}>
           <div>
             <h2>
-              Micahel <span>Biru</span>
+              Port<span>folio</span>
             </h2>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Header() {
           <ul className={`${isOpen ? classes.show : ""}`}>
             <li><a href="#About">About</a></li>
             <li><a href="#Projects">Projects</a></li>
-            <li>Contact</li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>

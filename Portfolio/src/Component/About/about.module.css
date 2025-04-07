@@ -2,8 +2,8 @@
   background-color: rgba(51, 1, 58, 0.4);
   border-radius: 5rem;
   width: 80%;
-  margin: 100px auto;
- 
+  margin: -50px auto 100px auto; 
+   
 }
 
 
@@ -35,7 +35,7 @@
 }
 .About {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold
 }
 
@@ -47,7 +47,7 @@
   border-radius: 2rem;
   margin-bottom: 5px;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .frontEnd p, .backEnd p {

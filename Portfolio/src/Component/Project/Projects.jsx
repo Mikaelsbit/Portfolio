@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <section>
-      <div className={classes.heading}>
+      <div className={classes.heading} id="Projects">
         <h1>Projects</h1>
       </div>
       <div className={classes.card_container}>
@@ -18,6 +18,7 @@ export default function Projects() {
             description={info.description}
             link={info.link}
             img={info.img_link}
+            source = {info.source}
           />
         ))}
       </div>

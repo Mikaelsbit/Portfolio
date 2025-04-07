@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 import classes from "./about.module.css";
 export default function About() {
-  const [dropFront, setDropFront] = useState(false);
-  const [dropback, setDropBack] = useState(false);
-  const dropDownFront = () => {
-    setDropFront(!dropFront);
-  };
-  const dropDownback = () => {
-    setDropBack(!dropback);
-  };
-
   return (
     <section className={classes.About__container} id="About">
       <div className={classes.About_wrapper}>
