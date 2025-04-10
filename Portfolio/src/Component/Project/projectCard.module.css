@@ -10,26 +10,29 @@
   flex-direction: column;
   gap: 20px;
   background-color: rgba(74, 15, 82, 0.4);
-  font-size: 25px;
   padding: 20px;
-  width: 35rem;
+  width: 32rem;
   overflow-wrap: break-word;
-  border-radius: 4rem;
+  border-radius: 1rem;
   height: 70vh;
 }
 
-
 .image img {
+  height: 100%;
   width: 100%;
-  border-radius: 2rem;
 }
 
+
+.Details {
+  padding: 15px;
+  line-height: 25px;
+}
 .Details span {
   color: rgb(221, 0, 221);
 }
 
 .Details p {
-  font-size: 23px;
+  font-size: 18px;
   margin-top: 15px;
 }
 
@@ -62,6 +65,40 @@
   font-size: 20px;
 }
 .btn_demosrc button:hover {
-  background-color: darkorchid ;
+  background-color: darkorchid;
   cursor: pointer;
+}
+
+@media screen and (max-width: 758px) {
+  .project__wrapper {
+    width: 25rem;
+  }
+
+  .Details p {
+    font-size: 15px;
+  }
+
+  .langs ul li {
+    font-size: 13px;
+  }
+
+  .langs ul {
+    display: none;
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+
+  .langs ul li {
+    text-align: center;
+  }
+  .btn_demosrc button {
+    font-size: 15px;
+    padding: 10px;
+    width: 7rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .project__wrapper {
+    width: 23rem;
+
+  }
 }

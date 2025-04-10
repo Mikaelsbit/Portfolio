@@ -1,21 +1,61 @@
+.contact_container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
 
-.rights {
-  margin-top: 15vh;
-  background-color: rgba(68, 0, 57, 0.767);
+.contact_container h1 {
+  text-orientation: upright;
+  display: block;
+}
+
+.title {
+  writing-mode:sideways-lr;
+  color: rgb(223, 67, 223);
+  font-size: 15px;
+} 
+
+.hr_liner {
+  writing-mode: sideways-lr;
+  height: 6vh;
+}
+
+.title_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* width: 25%; */
+}
+
+.contact_wrapper {
+  display: flex;
+  gap: 10px;
+  width: 30%;
+}
+
+.Information_details h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.Information_details p{
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: rgb(223, 67, 223);
+}
+
+.icons_desc {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 7vh;
+  gap: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.rights h2 {
-  font-size: 30px;
-}
-
-.rights p {
-  font-size: 17px;
-}
-
-.rights a {
-  color: rgb(65, 65, 235);
+.description {
+  color: rgb(223, 67, 223); 
+  margin: 10px 43px;
+  
 }

@@ -7,12 +7,12 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <section>
+    <section className={classes.header}>
       <div className={classes.Navbar}>
         <div className={classes.leftSide}>
           <div>
             <h2>
-              Port<span>folio</span>
+              Bi<span>ru</span>
             </h2>
           </div>
         </div>
@@ -22,9 +22,19 @@ export default function Header() {
             ☰
           </button>
           <ul className={`${isOpen ? classes.show : ""}`}>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href="#Technologies">Technologies</a>
+            </li>
+            <li>
+              <a href="#Projects">Projects</a>
+            </li>
+
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>

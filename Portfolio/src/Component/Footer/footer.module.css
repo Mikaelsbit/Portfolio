@@ -1,0 +1,31 @@
+.rights {
+  margin-top: 15vh;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 7vh;
+}
+
+.rights h2 {
+  font-size: 30px;
+  color: rgb(255, 58, 255);
+}
+
+.rights p {
+  font-size: 17px;
+}
+
+.rights a {
+  color: rgb(65, 65, 235);
+}
+
+@media screen and (max-width: 758px) {
+  .rights h2 {
+    font-size: 18px;
+  }
+
+  .rights p {
+    font-size: 12px;
+  }
+}

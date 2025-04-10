@@ -28,7 +28,7 @@ const techIcons = [
 
 export default function Technologies() {
   return (
-    <section className={classes.tech_container}>
+    <section className={classes.tech_container} id="Technologies">
       <div className={classes.title}>
         <h1>My Technologies</h1>
       </div>

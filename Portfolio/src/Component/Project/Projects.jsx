@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ProjectCard from "./projectCard";
 import projectsdata from "../../data/Projects.json";
 import classes from "./project.module.css";
@@ -6,7 +6,7 @@ export default function Projects() {
   const [projects, setProjects] = useState(projectsdata);
 
   return (
-    <section>
+    <section className="projects_container">
       <div className={classes.heading} id="Projects">
         <h1>Projects</h1>
       </div>

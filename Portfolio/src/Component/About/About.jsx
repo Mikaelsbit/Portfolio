@@ -14,30 +14,16 @@ export default function About() {
           <div className={classes.frontEnd}>
             <h2>Frontend Developer</h2>
             <p>
-              I'm a front-end Developer that can build a responsive and
+              I'm a front-end Developer that can build a responsive <br /> and
               optimized sites
             </p>
-            <ul
-              className={classes.showFrontend}
-            >
-              <li>Html</li>
-              <li>Css</li>
-              <li>javaScript</li>
-            </ul>
           </div>
           <div className={classes.backEnd}>
             <h2>Backend Developer</h2>
             <p>
-              I have some experience in developing basic back-end systems and
+              I have some experience in developing basic <br /> back-end systems and
               APIs
             </p>
-            <ul
-              className={classes.showBackend}
-            >
-              <li>Node Js</li>
-              <li>React</li>
-              <li>FireBase</li>
-            </ul>
           </div>
         </div>
       </div>
