@@ -30,7 +30,10 @@ export default function Hero() {
               <GitHubIcon fontSize="large" />
               {/* mdawit384@gmail.com */}
             </a>
-            <a href="" target="_blank">
+            <a
+              href="https://linkedin.com/in/mikaelsbit21"
+              target="_blank"
+            >
               <LinkedInIcon fontSize="large" />
               {/* linkedin */}
             </a>
