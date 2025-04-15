@@ -26,18 +26,15 @@ export default function Hero() {
             </button>
           </div>
           <div>
-            <a href="https://mdawit384@gmail.com" target="_blank">
+            <a href="https://github.com/Mikaelsbit" target="_blank">
               <GitHubIcon fontSize="large" />
               {/* mdawit384@gmail.com */}
             </a>
-            <a
-              href="https://linkedin.com/in/mikaelsbit21"
-              target="_blank"
-            >
+            <a href="https://linkedin.com/in/mikaelsbit21" target="_blank">
               <LinkedInIcon fontSize="large" />
               {/* linkedin */}
             </a>
-            <a href="https://github.com/Mikaelsbit" target="_blank">
+            <a href="https://mdawit384@gmail.com" target="_blank">
               <EmailIcon fontSize="large" />
               {/* github.com/Mikaelsbit */}
             </a>
