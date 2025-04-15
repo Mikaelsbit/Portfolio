@@ -28,7 +28,7 @@ export default function Hero() {
           <div>
             <a href="https://github.com/Mikaelsbit" target="_blank">
               <GitHubIcon fontSize="large" />
-              {/* mdawit384@gmail.com */}
+              {/* github.com/Mikaelsbit */}
             </a>
             <a href="https://linkedin.com/in/mikaelsbit21" target="_blank">
               <LinkedInIcon fontSize="large" />
@@ -36,7 +36,7 @@ export default function Hero() {
             </a>
             <a href="https://mdawit384@gmail.com" target="_blank">
               <EmailIcon fontSize="large" />
-              {/* github.com/Mikaelsbit */}
+              {/* mdawit384@gmail.com */}
             </a>
           </div>
         </div>
